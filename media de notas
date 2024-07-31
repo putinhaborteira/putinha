@@ -1,0 +1,10 @@
+nota1= float (input( "lança a nota ai "))
+nota2= float (input( "lança a nota ai "))
+nota_final = float (nota1 + nota2)/2
+
+if  10> nota_final >= 7 :
+    print( "aprovado")
+elif nota_final  < 7 :
+    print( "reprovado")
+elif nota_final == 10 :
+    print ( "pika das galaxia")
